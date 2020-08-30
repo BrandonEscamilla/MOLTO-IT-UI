@@ -1,7 +1,7 @@
 import { FORM_DATA, RESET_DATA } from '../constants';
 
 const initialState = {
-  problem_name: 'Jupiter', //Definir nombre de mision FINISH
+  problem_name: 'Earth_Jupiter', //Definir nombre de mision FINISH
   problem_type: 'rendezvous',
   planet_dep: 'Earth',
   planet_arr: 'Jupiter',
@@ -19,13 +19,13 @@ const initialState = {
   ToF_type: 'days',
   Initial_Date: ['2003-01-01', '2003-12-31'], //Si es ventana de lanzamiento amplia, es mejor una mayor poblacion.
   init_file: [],
-  output_file: 'Jupyter.txt', //Definir nombrede mision FINISH
+  output_file: 'Jupiter.txt', //Definir nombrede mision FINISH
   plot: 0, // Cambiar plot a 1, indice de frente de pareto
   useParallel: 'no', //revisar logs
   options: [],
   maxGen: 20, //Maximo 1000
   popsize: 100, //Maximo 1000 -----> Tiempo de ejecución.
-  output_dir: '~/tmp/Jupyter' //problem name define incluso la carpeta de destino.
+  output_dir: '~/tmp/Jupiter' //problem name define incluso la carpeta de destino.
 };
 
 const initialState_ = {
